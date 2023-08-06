@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    background-image: url("back.jpg");
+    background-size: 100%;
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-image: url("myb.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 35px;
+    text-decoration: none;
+    color: pink;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600; 
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color:brown;
+}
+
+.navbar a:active {
+    color: pink;
+}
+
+#main {
+    margin-top: 300px;
+    align-items: center;
+    padding: 0 10%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+
+}
+
+#home {
+    color: aqua;
+}
+
+#home:hover {
+    color: brown;
+}
+
+#home:active {
+    color: pink;
+}
+#h3 {
+    color: aquamarine;
+}
+
+#hi {
+    position: absolute; 
+    float: right;
+    left: -100px;
+    top: 250px;
+    
+}
+
+#hire {
+    width: 40%;
+    position: absolute; 
+    float: left;
+    right: -100px;
+    top: 200px;
+}
+
+#me {
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(to left, tomato 50%, rgb(9, 238, 131) 50%) right;
+    transition: .5s ease-out;
+    color: whitesmoke;
+    background-size: 200% 100%;
+    border: 3px solid rgb(167, 55, 10);
+    width: 10%;
+    position: absolute; 
+    float: left;
+    right: 170px;
+    top: 300px;
+}
+
+#talk {
+    top: 400px;
+    position: absolute; 
+    
+}
+
+#let {
+    top: 420px;
+    position: absolute; 
+    right: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(to left, tomato 50%, rgb(9, 238, 131) 50%) right;
+    transition: .5s ease-out;
+    color: whitesmoke;
+    background-size: 200% 100%;
+    border: 3px solid rgb(167, 55, 10);
+    width: 20%;
+    position: absolute; 
+}
+
+
+#let:hover{
+    background-position: left;
+}
+#me:hover{
+    background-position: left;
+}
