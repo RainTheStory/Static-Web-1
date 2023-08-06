@@ -9,7 +9,8 @@
 
 body{
     background-image: url("back.jpg");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .head {
@@ -19,6 +20,7 @@ body{
     width: 100%;
     padding: 20px 10%;
     background-image: url("myb.jpg");
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
